@@ -1,0 +1,39 @@
+.album {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .album-cover {
+    width: 128px;
+    height: 128px;
+  }
+  
+  .album-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .album-info {
+    margin-left: 20px;
+  }
+  
+  .album-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .album-artist {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .album-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: blue;
+    text-decoration: none;
+  }
+  
